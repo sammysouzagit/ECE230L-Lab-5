@@ -21,7 +21,9 @@ be implemented in series to build a more complex circuit from those smaller bloc
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
-
+The Top Level file is where we instantiate and connect all of our physical inputs/outputs. 
+In top.v, we declared all of our switches as inputs and leds as outputs in accordance to the truth
+tables of circuits A and B. 
 ### 2 - Explain the function of the Constraints file.
 The constraints file maps the variable names for inputs and outputs to the physical
 pins on the FPGA
